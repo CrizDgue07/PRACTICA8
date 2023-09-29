@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Contenido principal */
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Estilos para la imagen dentro de la sección */
+article section img {
+    max-width: 25%; 
+    height: auto;
+    display: block; 
+}
+
+/* Estilo para el logo */
+#logo {
+    width: 150px; /* Ancho deseado para el logo */
+    height: auto; /* Esto mantendrá la proporción de aspecto original */
+}
+
+
